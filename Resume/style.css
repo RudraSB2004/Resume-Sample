@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.container {
+    width: 100%; 
+    height: 1000px;
+    display: flex;
+    flex: wrap;
+
+}
+.sub_container {
+    background-color: rgb(74, 74, 217);
+    height: 300px;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    position: relative;
+}
+.image{
+    width: 150px;
+    border-radius: 50%;
+    padding-top: 16px;
+    
+}
+.left {
+    width: 350px;
+    height: 1000px;
+     background-color:slategray;
+}
+
+.right {
+    width: 100%;
+    text-align: center;
+}
+
+
+.name{
+    color: White;
+    text-decoration: underline;
+    padding-left: 4px;
+    padding-top: 2px;     
+
+}
+.title {
+    color: rgb(196, 199, 202);
+    font-size: 25px;
+}
+.link {
+    font-size: 10px;
+    color: white;
+    position: absolute;
+    left :15px;
+    bottom: 10px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.link2 {
+    font-size: 10px;
+    color: white;
+    position: absolute;
+    right :35px;
+    bottom: 10px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.contact {
+    padding: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.heading {
+    color: rgb(74, 74, 217);
+    padding-top: 30px ;
+    font-size: 60px;
+    text-transform: uppercase;
+}
+.objective {
+    padding: 25px;
+    font-size: medium;
+}
